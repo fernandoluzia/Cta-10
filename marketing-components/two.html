@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            background: none;
+            text-decoration: none;
+            border: none;
+            font-family: "Roboto", sans-serif;
+            font-size: 16px;
+            color: #000;
+            font-weight: 400;
+        }
+        header {
+            width:100%;
+            height: 72px;
+            display: flex;
+            padding: 16px 64px;
+            justify-content: space-between;
+          
+            
+        }
+       header > img {
+            width: 84px ;
+            height: 36px;
+        }
+        nav{
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+        .dropdown-menu {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            justify-content: center;
+        }
+         header > button {
+           padding: 8px 20px;
+            border: solid black;
+            background-color: #000;
+            color: white;
+          
+
+            
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./nav-bars/assets/images/Logo-wide 1.svg" alt="">
+        <nav>
+            
+            <a href="">Link One</a>
+            <a href="">Link Two</a>
+            <a href="">Link Three</a>
+            <div class="dropdown-menu">
+                <a href="">Link four</a>
+
+                <button>
+                    <img src="../marketing-components/nav-bars/assets/Chevron Down.svg" alt="">
+                </button>
+            </div>
+        </nav>
+        <button>Button</button>
+    </header>
+</body>
+</html>
